@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {/* can use variables with curly braces */}
     <p>{name}</p>
-    <Post/>
+    <Post title="Comment Thread" author="Yaboi" body="React Comments"/>
     </div>
   );
 }
